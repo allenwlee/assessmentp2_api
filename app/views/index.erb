@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>My Github Account</h1>
+  <h3>followers</h3>
+  <ul>
+  <% @followers.each do |follower| %>
+    <li><a href='follower.avatar_url'><%= follower.avatar_url %></a></li>
+  <% end %>
+    <ul>
+</div> 
